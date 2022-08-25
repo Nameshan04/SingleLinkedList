@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace SingleLinkedList.CLinkedLLists
 {
-    public class CircleLinkedList
+    public class SLinkedList
     {
         /*This class creates a single linked list with all the necessary methods to:
         append

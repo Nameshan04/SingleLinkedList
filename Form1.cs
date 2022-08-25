@@ -15,7 +15,7 @@ namespace SingleLinkedList
     {
         List<string> nodeValues;
         //List<string> nodeList = new List<string>();
-        CircleLinkedList sLinkedList = new CircleLinkedList();
+        SLinkedList sLinkedList = new SLinkedList();
         public Form1()
         {
             InitializeComponent();
@@ -43,5 +43,7 @@ namespace SingleLinkedList
                 listView1.Items.Add(item.ToString());
             }
         }
+
+       
     }
 }
