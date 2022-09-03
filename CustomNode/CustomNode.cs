@@ -12,6 +12,7 @@ namespace SingleLinkedList.CLinkedLLists
        It also creates a node that will serve as our next value"*/
     public class CustomNode     //does this need to be internal class CustomNode = NO in YT Video
     {
+        public CustomNode Previous;     //make a doubly linked list 
         public CustomNode Next; //set object of node class = next 
         public string data;
 
