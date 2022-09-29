@@ -22,7 +22,7 @@ namespace SingleLinkedList
         {
             InitializeComponent();
             
-            List<String> nodesList = new List<String>();
+            List<string> nodesList = new List<string>();
             //sLinkedList.appendNode("I am the head");
             //sLinkedList.appendNode("I am the second 2nd Node");
             //sLinkedList.appendNode("I am the third 3rd Node");
