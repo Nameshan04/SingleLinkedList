@@ -15,13 +15,13 @@ namespace SingleLinkedList
     public partial class Form1 : Form
     {
         List<string> nodeValues;
-        //List<string> nodeList = new List<string>();
+        //List<string> nodesList = new List<string>();
         SLinkedList sLinkedList = new SLinkedList();
         CircleLinkedList circleLinkedList = new CircleLinkedList();
         public Form1()
         {
             InitializeComponent();
-            
+            MessageBox.Show("Application Started =)", "INFORMATION");
             List<string> nodesList = new List<string>();
             //sLinkedList.appendNode("I am the head");
             //sLinkedList.appendNode("I am the second 2nd Node");
